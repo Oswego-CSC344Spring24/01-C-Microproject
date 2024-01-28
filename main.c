@@ -52,7 +52,7 @@ int main() {
    // int result3 = strcmp(s3, e3);
 
     if (result1==0 && result2==0 )//&& result3 ==0)
-        printf("%s", "Congratulations");
+        printf("%s", "Congratulations!");
     else
         exit(1);
 
