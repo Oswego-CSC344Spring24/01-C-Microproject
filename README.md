@@ -13,4 +13,14 @@ Suppose the input file is `input.txt`. It contains 4 lines. In your function def
 
           readFile("input.txt", 1) will be the string "CSC344\n".
 
+## Note:
+1. Clone the whole project to your computer
+2. You can use CLion to open the project or you can work in terminal directly.
+   Don't change the main function. If your function works, You will see the output "Congratulations" when runnning main.
+
+3. There are three ways to test your program.
+   1) in Clion, choose test then click the green arrow
+   2) in Terminal, enter 'make test'
+   3) push your code to GitHub and check the Actions
+
 
