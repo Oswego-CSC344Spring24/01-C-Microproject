@@ -21,11 +21,11 @@ int main() {
     char* ep3="And on his farm he had some cows";
 
     if (strcmp(s1, e1)==0 || strcmp(s1, ep1)==0)
-        result1 =0;
+        int result1 =0;
     if (strcmp(s2, e2)==0 || strcmp(s2, ep2)==0)
-        result2 =0;
+        int result2 =0;
     if (strcmp(s3, e3)==0 || strcmp(s3, ep3)==0)
-        result3 =0;
+        int result3 =0;
 
     if (result1==0 && result2==0 && result3 ==0)
         printf("%s", "Congratulations");
@@ -34,4 +34,8 @@ int main() {
 
     return 0;
 }
+/*********************************
+ * Don't change the main function
+ * *******************************
+ */
 
