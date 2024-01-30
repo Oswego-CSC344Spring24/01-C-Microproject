@@ -20,7 +20,7 @@ int main() {
     char* e3="And on his farm he had some cows\n";
     char* ep3="And on his farm he had some cows";
 
-    int result1,result2, result3;
+     int result1=1,result2=1, result3=1;
     if (strcmp(s1, e1)==0 || strcmp(s1, ep1)==0)
          result1 =0;
     if (strcmp(s2, e2)==0 || strcmp(s2, ep2)==0)
